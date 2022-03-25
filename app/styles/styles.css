@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  height: 100vh;
+}
+
+header,
+main {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: 1rem 2rem;
+}
+
+#table {
+  height: 500px;
+  width: 500px;
+  border-radius: 2rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-filter: drop-shadow(0 0 10rem #cccccc);
+          filter: drop-shadow(0 0 10rem #cccccc);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fac72d), to(#ad8610));
+  background-image: linear-gradient(#fac72d, #ad8610);
+}
+
+#input-box {
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#input-box input {
+  border: none;
+  background-color: antiquewhite;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  outline: none;
+}
+
+#input-box ::-webkit-input-placeholder {
+  font-weight: 700;
+}
+
+#input-box :-ms-input-placeholder {
+  font-weight: 700;
+}
+
+#input-box ::-ms-input-placeholder {
+  font-weight: 700;
+}
+
+#input-box ::placeholder {
+  font-weight: 700;
+}
+
+#input-box #searchButton {
+  font-weight: 700;
+  background-color: #ad8610;
+  color: aliceblue;
+}
+
+#input-box #searchButton:hover {
+  background-color: #886600;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#input-box #cleaner {
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+  background-color: #ad8610;
+  color: white;
+}
+
+#input-box #cleaner:hover {
+  background-color: #886600;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+select {
+  width: 100%;
+  height: 100%;
+  padding: 3rem 0 0 3rem;
+  font-size: 14px;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: antiquewhite;
+}
+
+option {
+  font-weight: 700;
+}
+
+::-webkit-scrollbar {
+  overflow: hidden;
+}
+/*# sourceMappingURL=styles.css.map */
